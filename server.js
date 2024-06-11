@@ -8,7 +8,7 @@ app.use(express.static('public'))
 
 app.get('/', (req, res) => {
 
-  console.log("ssds");
+  console.log("success");
 
 })
 // Handle form submission
@@ -16,11 +16,6 @@ app.post('/sign-in', (req, res) => {
   res.send(`This is an example to show the post request of an entered email: ${req.body.inputdata}`);
   
 });
-
-
-// app.get('/otherPage', (req, res) => {
-//   res.send(`Received data`);
-// });
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
