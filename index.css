@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(55, 55, 55);
+}
+
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    height: 98vh;
+    position: relative;
+    font-family: 'roboto', times;
+}
+
+.main2 {
+    display: flex;
+    flex-flow: row;
+    min-height: 90vh;
+    height: auto;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.main .box {
+    height: 98vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    background-color: black;
+    top: 0px;
+
+}
+
+
+nav {
+
+    padding-top: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.hero-buttons input{
+    font-family: 'roboto',times;
+    font-size: 20px;
+    background: local;
+    color: white;
+    border-color: gray;
+    width: 370px;
+    height: 7vh;
+    border-radius: 6px;
+    background: rgb(0 0 0 / 52%);
+    border: 2px solid gray;
+}
+
+.signin {
+    background-color: red;
+    display: flex;
+    width: 76.9px;
+    height: 36px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'roboto', times;
+    border: none;
+    cursor: pointer;
+}
+
+nav div svg {
+
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    width: 148px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+
+
+.tv {
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    
+}
+
+.tv video {
+    position: absolute;
+    width: 27vw;
+    height: 29vw;
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
+
+.tv img {
+    width: 37vw;
+    height: 27vw;
+    align-self: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding: 0 30px;
+    font-family: 'roboto',times;
+    
+}
+
+.lang {
+    border: 2px solid gray;
+    display: flex;
+    font-size: 15px;
+    width: 120.4px;
+    color: white;
+    font-weight: 500;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'roboto',times;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.hero-buttons {
+    padding-top: 23px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'roboto',times;
+
+}
+
+.getstarted {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: larger;
+    width: 200.83px;
+    height: 7.2vh;
+    text-align: center;
+    justify-items: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family: 'roboto',times;
+    border: none;
+    cursor: pointer;
+}
+.getstarted:hover{
+    background-color: rgb(168, 7, 15);
+    transition: all 0.5s;
+}
+.main3 {
+    display: flex;
+    height: auto;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    flex-wrap: wrap;
+    font-family: 'roboto',times;
+    min-height: 85vh;
+}
+.phone{
+    /* border: 2px solid white; */
+    margin: auto;
+    position: relative;
+    padding-top: 50px;
+}
+.img1{
+    width: 40vw;
+}
+.phone .box{
+    display: flex;
+    border: 2px solid white;
+    height: 7vw;
+    width: 20vw;
+    position: relative;
+    left: 10vw;
+    bottom: 9vw;
+    border-radius: 13px;
+    background-color: black;
+    border-color: gray;
+    align-items: center;
+    justify-content: space-between;
+}
+.ptext{
+    font-size: medium;
+}
+.box .img3{
+    position: relative;
+    width: 5vw;
+    height: 6vw;
+    
+}
+.img4{
+    position:relative;
+    height: 3vw;
+    width: 3vw;
+
+}
+
+.main4 {
+    display: flex;
+    flex-flow: row;
+    min-height: 90vh;
+    height: auto;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'roboto',times;
+}
+.main5{
+    display: flex;
+    flex-flow: row;
+    min-height: 90vh;
+    height: auto;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'roboto',times;  
+}
+.main4 video {
+    position: absolute;
+    width: 23vw;
+    height: 20vw;
+    margin-bottom: 10vw;
+}
+.m2text {
+
+    margin: auto;
+    padding-left: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    min-height: 20vh;
+    width: 40vw;
+    position: relative;
+    font-family: 'roboto',times;
+    /* border: 2px solid white; */
+}
+.m3text {
+
+    margin: auto;
+    justify-content: center;
+    min-height: 20vh;
+    width: 50vw;
+    position: relative;
+    /* border: 2px solid white; */
+}
+
+
+.m4text {
+
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    min-height: 20vh;
+    width: 40vw;
+    position: relative;
+    /* border: 2px solid white; */
+}
+.m5text {
+    margin: auto;
+    justify-content: center;
+    min-height: 20vh;
+    width: 50vw;
+    position: relative;
+    /* border: 2px solid white; */
+}
+.faqs{
+    display: flex;
+    height: 120vh;
+    flex-flow: column;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'roboto',times;
+}
+.faqheader{
+    text-align: center;
+}
+.card{
+    width: 100%;
+    background-color:rgba(55, 55, 55, 0.69);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 23px;
+    position: sticky;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+.card:hover{
+    background-color:rgba(55, 55, 55, 1);
+    transition: all 0.2s;
+}
+.card img{
+   transition: all 1s;
+}
+.cards{
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    align-items: center;
+    position: relative;
+    gap: 1vh;
+}
+
+.faq_footer{
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer{
+    background-color: black;
+    margin-top: 10px;
+    color: rgb(161, 161, 161);
+    font-family: 'roboto',times; 
+    display: flex;
+    flex-flow: column;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    gap: 1vh;
+}
+
+.credits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block2{
+    /* border: 2px solid ; */
+    justify-content: center;
+    padding: 5vh;
+    
+    display: flex;
+
+    font-size: small;
+}
+.block2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.block2 ul li{
+    margin: 4px;
+    width: 23%;
+    position: relative;
+    left: 8vw;
+}
+.answer{
+    width: 100%;
+    background-color:rgba(55, 55, 55, 0.69);
+    display: none;
+    align-items: center;
+    overflow: hidden;
+    font-size: 23px;
+    height: 0px;
+    transition: height 0.3s linear,padding 0.3s linear;
+}
+.active {
+    display: flex;
+}
+@media screen and (max-width: 958px) {
+    .main2{
+        display: block;
+        min-height:fit-content;
+        height: auto;
+    }
+    .tv{
+        padding-bottom: 60px;
+    }
+    .tv img{
+        width: 70vw;
+        height: 52vw;
+    }
+    .tv video{
+        width: 60vw;
+    }
+    .m2text, .m4text{
+        padding-left: 0%;
+        align-items: center;
+        width: 80%;
+        height: 60%;
+        padding-top: 5vw;
+        text-align: center;
+    }
+    
+    .m3text, .m5text{
+        align-items: center;
+        width: 80%;
+        height: 60%;
+        padding-top: 5vw;
+        text-align: center;
+    }
+    .main3, .main5{
+        flex-direction: column-reverse;
+    }
+    .phone .img1{
+        width: 80vw;
+    }
+    .phone .box{
+        width: 48vw;
+        left: 15vw;
+        height: 10vw;
+        bottom: 16vw;
+    }
+    .phone .img3{
+        width: 6vw;
+        padding-left: 2vw;
+    }
+    .ptext h3{
+        font-size: 3vw;
+    }
+    .ptext p{
+        font-size: 2.5vw;
+    }
+    .phone .img4{
+        height: 6vw;
+    width: 7vw;
+    }
+    .tv2{
+        padding-top: 3vw;
+    }
+    .tv2 video{
+    
+    width: 43vw;
+    height: 32vw;
+    
+    }
+  }
+
+  @media screen and (max-width: 1500px) {
+    .card{
+        padding: 1rem;
+        
+    }
+    .answer{
+        width: 99%;
+    }
+  }
