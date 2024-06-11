@@ -14,9 +14,9 @@ Getting Started:
 1) Clone the Repository.
 2) Navigate to the Project Directory.
 3) Open index.html located in the project folder in your browser.
-4) To track user interactions and handle post requests effectively, we'll integrate Express.js into our project. Follow these steps to set up the environment: npm install express
+4) To track user interactions and handle post requests effectively, we'll integrate Express.js into our project. Follow these steps to set up the environment: npm install express.
 5)Organize Project Structure: To maintain a clean project structure, create a public folder where all static assets (HTML, CSS, client-side JavaScript) will reside. Keep the server.js file outside the public folder to secure server-side logic.
-6) Now, run the command - npm start server.js
+6) Now, run the command: npm start server.js.
 7) App should be listening on port 3000.
 
 Contact
