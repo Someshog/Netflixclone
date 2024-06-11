@@ -8,7 +8,7 @@ As users scroll through the website, they can discover more about its features a
 
 Technologies Used:
 Frontend - HTML, CSS, JavaScript.
-Backend - Node.js, Express.js
+Backend - Node.js, Express.js.
 
 Getting Started:
 1) Clone the Repository.
